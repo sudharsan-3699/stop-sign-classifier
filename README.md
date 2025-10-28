@@ -16,9 +16,22 @@ This project demonstrates the development of a Convolutional Neural Network (CNN
 The task is to develop a machine learning model that can accurately distinguish between images containing stop signs and those that do not. Applications of such a system include autonomous driving, advanced driver-assistance systems (ADAS), and traffic surveillance, where robust detection of road signs is critical.  
 
 3.Dataset Used  
-Classes: Stop signs (data/stop/) and Not Stop signs (data/not_stop/)  
-Format: JPEG images, organized into class-specific directories  
-Data split: 80% train, 20% validation (automatically managed in code)  
+Classes: Stop signs and Not Stop signs, organized into:  
+
+    data/stop/
+    data/not_stop/
+
+Download the dataset: 
+
+    https://drive.google.com/drive/folders/1818x1ukoJy8UHIbItOYJ_25ssh-U3gp3?usp=sharing
+Instructions:  
+Download and unzip the dataset.    
+Place the stop and not_stop folders inside a new data/ directory at the project root.    
+The final structure should be:  
+
+    data/
+      stop/
+      not_stop/
 
 4.Model Architecture  
 * Framework: TensorFlow (Keras API)
